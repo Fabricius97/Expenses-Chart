@@ -1,0 +1,16 @@
+.balance {
+  height: 100px;
+  border-radius: 15px;
+  display: flex;
+  background-color: #ec755e;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.myBalance {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 5px;
+}

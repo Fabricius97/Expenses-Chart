@@ -1,0 +1,16 @@
+.monthlySpendings {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lastMonth {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.percentLastMonth {
+  display: flex;
+  justify-content: flex-end;
+}
