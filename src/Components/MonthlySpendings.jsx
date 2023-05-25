@@ -3,12 +3,13 @@ import "./MonthlySpendings.css";
 
 const MonthlySpendings = ({ day }) => {
   const totalAmount = day.reduce((sum, day) => sum + day.amount, 0);
+  const formattedAmount = totalAmount.toFixed(2);
   return (
     <div className="monthlySpendings">
       <div className="thisMonth">
         <div style={{ color: "grey", fontSize: "14px" }}>Total this month</div>
         <div className="total-amount">
-          <h1 style={{ color: "hsl(25, 47%, 15%)" }}>${totalAmount}</h1>
+          <h1 style={{ color: "hsl(25, 47%, 15%)" }}>${formattedAmount}</h1>
         </div>
       </div>
       <div className="lastMonth">
